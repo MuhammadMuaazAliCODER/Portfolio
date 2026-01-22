@@ -150,9 +150,20 @@
         // Mobile Menu
 const mobileToggle = document.getElementById('mobileToggle');
 const navLinks = document.getElementById('navLinks');
+const navItems = document.querySelectorAll('#navLinks a');
+
 
 mobileToggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
+    mobileToggle.classList.toggle('open');
+});
+
+
+navItems.forEach(item => {
+    item.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        mobileToggle.classList.remove('open');
+    });
 });
 
 // Theme Toggle

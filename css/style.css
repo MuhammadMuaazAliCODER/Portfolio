@@ -883,3 +883,16 @@ footer {
         right: 14px;
     }
 }
+#mobileToggle {
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#mobileToggle.open::before {
+    content: "✖";
+}
+
+#mobileToggle::before {
+    content: "☰";
+}
