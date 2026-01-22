@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Muaaz Ali - Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="shortcut icon" href="./img/img.jpeg" type="image/x-icon">
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+    (function(){
+        emailjs.init("p47Sk80mWXbz4FOlA"); 
+    })();
+</script>
+
+</head>
+<body>
+    <nav>
+        <div class="logo">Muaaz Ali</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch">
+                        <input type="checkbox" id="themeToggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </li>
+        </ul>
+        <div class="mobile-toggle" id="mobileToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-container">
+                <img src="img/img.jpeg" alt="Muhammad Muaaz Ali" class="profile-img">
+            </div>
+            <h1 class="name">Muhammad Muaaz Ali</h1>
+            <p class="title">Full Stack Developer</p>
+            <p class="hero-subtitle">Building scalable web applications with modern technologies. Passionate about creating seamless user experiences from frontend to backend.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a passionate Full Stack Developer with expertise in both frontend and backend technologies. I love building complete web solutions that are not only visually appealing but also robust and scalable.</p>
+                    <p>My journey in web development has equipped me with a diverse skill set, allowing me to handle everything from designing intuitive user interfaces to architecting complex server-side systems.</p>
+                    <p>I believe in writing clean, maintainable code and staying updated with the latest industry trends and best practices.</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Satisfaction Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-container">
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, JavaScript, React, Vue.js, Tailwind CSS, Bootstrap, Responsive Design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Express.js, Python, Django, REST APIs, GraphQL, Microservices</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💾</div>
+                    <h3>Database Management</h3>
+                    <p>MongoDB, MySQL, PostgreSQL, Redis, Firebase, Database Design & Optimization</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>AWS, Docker, Kubernetes, CI/CD, Git, GitHub Actions, Cloud Deployment</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Mobile Development</h3>
+                    <p>React Native, Progressive Web Apps, Mobile-First Design, Cross-Platform Apps</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Tools & Others</h3>
+                    <p>VS Code, Figma, Postman, Webpack, Babel, NPM, Testing Frameworks</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2 class="section-title">Experience & Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Senior Full Stack Developer</h3>
+                    <div class="timeline-date">2023 - Present</div>
+                    <p>Leading development of enterprise-level web applications, mentoring junior developers, and implementing best practices for scalable architecture.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Full Stack Developer</h3>
+                    <div class="timeline-date">2021 - 2023</div>
+                    <p>Developed and maintained multiple client projects, working with React, Node.js, and various databases. Improved application performance by 40%.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Frontend Developer</h3>
+                    <div class="timeline-date">2020 - 2021</div>
+                    <p>Created responsive and accessible user interfaces, collaborated with design teams, and implemented modern frontend frameworks.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Started Web Development Journey</h3>
+                    <div class="timeline-date">2019</div>
+                    <p>Began learning web development, focusing on HTML, CSS, and JavaScript fundamentals. Completed various online courses and personal projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="swiper projectSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A comprehensive e-commerce solution with real-time inventory management, secure payment integration, and admin dashboard. Handles 10,000+ daily transactions.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <h3>Real-Time Chat Application</h3>
+                        <p>Instant messaging platform with end-to-end encryption, file sharing, group chats, video calls, and real-time notifications.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <h3>Restaurant Ordering System</h3>
+                        <p>Complete restaurant management system with online ordering, table reservations, kitchen display, and integrated POS system.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <h3>Social Media Dashboard</h3>
+                        <p>Analytics dashboard for managing multiple social media accounts with real-time data visualization, scheduled posting, and engagement metrics.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <h3>Project Management Tool</h3>
+                        <p>Collaborative project management application with task tracking, team communication, file sharing, and Kanban boards for agile workflows.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">GraphQL</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Material-UI</span>
+                        </div>
+                                            </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>muaazaliwork@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+92 321 8069472</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Lahore, Pakistan</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-buttons">
+                        <a href="https://github.com/MuhammadMuaazAliCODER" class="contact-btn"> GitHub</a>
+                        <a href="https://www.linkedin.com/in/muhammad-muaaz-ali-6373ab2a3" class="contact-btn">LinkedIn</a>
+                     <a href="https://wa.me/923218069472?text=Hello%20Muaaz,%20I%20want%20to%20discuss%20a%20project"
+   class="floating-whatsapp"
+   target="_blank"
+   aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+                    </div>
+                </div>
+
+               <form class="contact-form" id="contactForm">
+    <div class="form-group">
+        <label>Your Name</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+        <label>Message</label>
+        <textarea id="message" name="message" required></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Send Message</button>
+    <div class="form-message" id="formMessage"></div>
+</form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Muhammad Muaaz Ali</h3>
+        <p>Let us work togather</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Connect</h3>
+        <a href="https://github.com/MuhammadMuaazAliCODER">GitHub</a>
+        <a href="https://www.linkedin.com/in/muhammad-muaaz-ali-6373ab2a3">LinkedIn</a>
+      </div>
+    </div>
+        </div>
+         <div class="footer-bottom">
+      <p>© 2026 Muhammad Muaaz Ali . All rights reserved.</p>
+    </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+const form = document.getElementById("contactForm");
+const formMessage = document.getElementById("formMessage");
+
+form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    formMessage.innerHTML = "Sending message... ⏳";
+
+    emailjs.send("service_rky6agp", "template_a9htf7p", {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value,
+    })
+    .then(() => {
+        formMessage.innerHTML = "✅ Message sent successfully!";
+        form.reset();
+    })
+    .catch((error) => {
+        formMessage.innerHTML = "❌ Failed to send message. Try again.";
+        console.error("EmailJS Error:", error);
+    });
+});
+</script>
+
+   
+</body>
+</html>
