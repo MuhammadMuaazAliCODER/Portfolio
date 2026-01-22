@@ -20,7 +20,7 @@
         }
 
         .light-theme {
-            --bg-primary: #ffffff;
+            --bg-primary: hsl(29, 100%, 98%);
             --bg-secondary: #f0f7ff;
             --bg-card: #ffffff;
             --text-primary: #1a1a1a;
