@@ -5,6 +5,7 @@
         }
        html {
     scroll-behavior: smooth;
+    ;
 }
 
         :root {
@@ -13,7 +14,7 @@
             --bg-card: #151515;
             --text-primary: #ffffff;
             --text-secondary: #b0b0b0;
-            --accent: #dc2626;
+            --accent: hsla(282, 77%, 63%, 0.5);
             --accent-hover: #ef4444;
             --accent-light: rgba(220, 38, 38, 0.1);
         }
